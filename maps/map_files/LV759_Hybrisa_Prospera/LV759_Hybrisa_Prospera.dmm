@@ -6584,6 +6584,14 @@
 /obj/structure/machinery/power/apc/no_power/north,
 /turf/open/floor/plating/platingdmg3,
 /area/lv759/indoors/caves/north_caves)
+"arg" = (
+/obj/effect/landmark/spycam_start,
+/turf/open/hybrisa/street/asphalt,
+/area/lv759/outdoors/landing_zone_2)
+"arh" = (
+/obj/effect/landmark/spycam_start,
+/turf/open/floor/plating/plating_catwalk/prison,
+/area/lv759/outdoors/landing_zone_1)
 "ari" = (
 /obj/item/hybrisa/misc/trash_bag_full_prop{
 	pixel_x = 2;
@@ -32699,6 +32707,10 @@
 	},
 /obj/item/trash/cigbutt,
 /obj/item/trash/cigbutt,
+/obj/structure/sign/calendar/wy{
+	pixel_y = 30;
+	layer = 2.9
+	},
 /turf/open/floor/hybrisa/wood/blackwood,
 /area/lv759/indoors/weyyu_office/vip)
 "efJ" = (
@@ -41739,14 +41751,15 @@
 "fxZ" = (
 /obj/structure/surface/table/woodentable/fancy,
 /obj/structure/machinery/faxmachine,
-/obj/structure/noticeboard{
-	pixel_y = 32
-	},
 /obj/structure/curtain/colorable_transparent{
 	color = "#687d89";
 	alpha = 220;
 	layer = 3.2;
 	pixel_x = -32
+	},
+/obj/structure/sign/calendar/twe{
+	pixel_y = 29;
+	pixel_x = -4
 	},
 /turf/open/floor/hybrisa/wood/darkerwood,
 /area/lv759/indoors/colonial_marshals/north_office)
@@ -84584,8 +84597,9 @@
 /obj/structure/machinery/light/blue{
 	dir = 8
 	},
-/obj/structure/prop/hybrisa/misc/redmeter{
-	pixel_y = 32
+/obj/structure/sign/calendar/wy{
+	pixel_y = 28;
+	pixel_x = -3
 	},
 /turf/open/floor/strata/red1,
 /area/lv759/indoors/spaceport/security)
@@ -105221,7 +105235,8 @@
 /area/lv759/indoors/spaceport/baggagehandling)
 "oTf" = (
 /obj/structure/sign/poster/safety{
-	pixel_y = 32
+	pixel_y = 34;
+	pixel_x = -7
 	},
 /obj/item/reagent_container/food/drinks/coffee/cuppa_joes{
 	pixel_x = -10;
@@ -146113,6 +146128,10 @@
 	pixel_y = 16;
 	pixel_x = 4
 	},
+/obj/structure/sign/calendar/twe{
+	pixel_y = 30;
+	pixel_x = -17
+	},
 /turf/open/floor/prison/red,
 /area/lv759/indoors/colonial_marshals/hallway_central)
 "uRf" = (
@@ -162007,14 +162026,15 @@
 	pixel_x = 8;
 	pixel_y = 5
 	},
-/obj/structure/prop/hybrisa/misc/metergreen{
-	pixel_y = 32
-	},
 /obj/structure/curtain/colorable_transparent{
 	color = "#5a5a5a";
 	alpha = 220;
 	layer = 3.2;
 	pixel_x = -32
+	},
+/obj/structure/sign/calendar/wy{
+	pixel_y = 27;
+	pixel_x = -6
 	},
 /turf/open/floor/almayer/black/northwest,
 /area/lv759/indoors/wy_research_complex/head_research_office)
@@ -219450,7 +219470,7 @@ izN
 izN
 izN
 izN
-izN
+arg
 izN
 izN
 izN
@@ -220588,7 +220608,7 @@ oxI
 gBm
 iuz
 nck
-aex
+arh
 aex
 aex
 aex
